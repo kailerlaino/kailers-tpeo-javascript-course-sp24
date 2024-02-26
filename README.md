@@ -1,5 +1,10 @@
 # Welcome to the TPEO Spring 2024 Javascript Course!
 
+# Finding Homework/Class Resources
+Refer to the README.md within each week's folder to see the homework guidelines.
+
+To see our class recordings and slides, refer to our notion here: https://txproduct.notion.site/Introductory-JavaScript-2024-eb0bbdcbb26a4938a57ca8bb504aa34d
+
 # Fork Environment
 This repository will be using a fork structure, meaning that fellows will **commit to their own local respository** while **pulling new weekly content from this one**. Weekly content will be updated on the master branch, but a copy of all previous week's content will be available via branches.
 
