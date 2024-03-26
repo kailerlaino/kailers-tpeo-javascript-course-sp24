@@ -8,9 +8,9 @@ function Car {
     this.mpg = mpg;
 }
 
-var Corolla = new Car("Toyota", 2022, "red", 20);
-var Fusion = new Car("Ford", 2021, "blue", 25);
-var Accord = new Car("Honda", 2005, "black", 30);
+var corolla = new Car("Toyota", 2022, "red", 20);
+var fusion = new Car("Ford", 2021, "blue", 25);
+var accord = new Car("Honda", 2005, "black", 30);
 console.log(Corolla.mpg, Fusion.mpg, Accord.mpg);
 
 /**
@@ -20,8 +20,8 @@ function Vehicle {
    this.car = car;
 }
 
-var CorollaVehicle = new Vehicle(Corolla);
-var FusionVehicle = new Vehicle(Fusion);
-var AccordVehicle = new Vehicle(Accord);
+var corollaVehicle = new Vehicle(Corolla);
+var fusionVehicle = new Vehicle(Fusion);
+var accordVehicle = new Vehicle(Accord);
 
 console.log(CorollaVehicle.car.mpg, FusionVehicle.car.mpg, AccordVehicle.car.mpg);
