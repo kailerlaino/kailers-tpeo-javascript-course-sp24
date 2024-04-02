@@ -36,7 +36,7 @@ console.log(numVowels("aaaeeeiiiooouuu")); // 15
 console.log(numVowels("b")); // 0
 console.log(numVowels("aeiouAEIOU")); // 10
 
-/*
+/* 
 Question 3: Write a function, numStringsShorterThanLength that accepts two parameters: 
 strings (an array of strings) and length (a number). In the function, return the number 
 of strings in strings that have a length less than length. Call this function three times 
