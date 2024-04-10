@@ -1,10 +1,10 @@
 /**
  * Instantiates a new Car object with the given model, year, color, and mpg.
  */
-function Car {
+function Car() {
     this.model = model;
     this.year = year;
-    this.color = black;
+    this.color = color;
     this.mpg = mpg;
 }
 
@@ -16,7 +16,7 @@ console.log(Corolla.mpg, Fusion.mpg, Accord.mpg);
 /**
  * Instantiates a new Vehicle object with the given car.
  */
-function Vehicle {
+function Vehicle() {
    this.car = car;
 }
 
